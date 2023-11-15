@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ddffe3;
+}
+
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: #252525;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#promotion {
+    margin: 50px;
+    padding: 50px;
+}
+
+.card-container {
+    margin: 50px;
+    padding: 50px;
+}
+
+.card {
+    margin: 50px;
+    padding: 50px;
+}
+
+#logo {
+    width: auto;
+    height: 200px;
+}
+
+#copyright {
+    color: #ffffff;
+}
+
+footer {
+    margin: 0px important;
+    padding: 50px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
