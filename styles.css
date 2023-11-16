@@ -16,23 +16,32 @@ nav > ul {
 }
 
 nav {
-    background-color: #252525;
-    padding: 20px;
+    background-color: #002324;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.8);
 }
 
 .nav-link {
     text-decoration: none;
+    color: #fafafa;
+    font-size: 1.5rem;
 }
+
+.nav-item {
+    padding: 30px;
+}
+
+.nav-item:hover {
+    background-color: #5f5f5f;
+}
+
+.active {
+    background-color: #5f5f5f;
+}
+
 
 .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,14 +52,36 @@ nav {
     padding: 50px;
 }
 
+
 .card-container {
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fafafa;
+    box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
     margin: 50px;
     padding: 50px;
 }
 
-.card {
-    margin: 50px;
-    padding: 50px;
+.card-header {
+    font-size: 2rem;
+}
+
+.card-image {
+    width:200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-image > img {
+    width: auto;
+    height: 100%;
 }
 
 #logo {
