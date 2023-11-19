@@ -1,3 +1,4 @@
+/* Browser Reset */
 * {
     margin: 0px;
     padding: 0px;
@@ -29,11 +30,12 @@ nav {
     text-decoration: none;
     color: #fafafa;
     text-align: center;
-    width: 50%;
+    width: 100%;
     font-size: 1.5rem;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .nav-link:hover {
@@ -203,11 +205,10 @@ footer {
 
     nav > ul {
         flex-direction: column;
-        align-items: start;
     }   
 
     .nav-link {
-        text-align: left;
+        text-align: center;
     }
 
     .promotion-container {
